@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: sans-serif;
 }
 
 .nav {
@@ -67,3 +68,32 @@
     width: 50%;
 }
 
+.body2 {
+    padding: 30px;
+}
+
+.randominformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.randominformation h2 {
+    font-size: 36px;
+}
+
+.imagetray {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagetray img {
+    width: 20%;
+    border: solid 8px #2882f6;
+    border-radius: 30px;
+}
+
+.imagecomments {
+
+}
