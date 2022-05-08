@@ -65,18 +65,18 @@
 }
 
 .body-right img {
-    width: 50%;
+    width: 80%;
 }
 
 .body2 {
-    padding: 30px;
+    margin: 50px;
 }
 
 .randominformation {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 .randominformation h2 {
@@ -86,14 +86,94 @@
 .imagetray {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .imagetray img {
-    width: 20%;
+    width: 65%;
     border: solid 8px #2882f6;
     border-radius: 30px;
+    margin-bottom: 20px;
 }
 
-.imagecomments {
+.imagetray .img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.imginfo {
+    text-align: center;
+}
+
+.quotetray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quotetray .quote {
+    width: 80%;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.quotename {
+    display: flex;
+    justify-content: end;
+    background-color: #e5e7eb;
+    font-size: 24px;
+    padding-bottom: 60px;
+}
+
+.quotename p {
+    width: 30%;
+    font-weight: bold;
+}
+
+.ctatray {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.ctabillboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #2882f6;
+    border-radius: 10px;
+    width: 90%;
+    color: #fff;
+    padding: 50px;
+}
+
+.ctabillboard h3 {
+    font-size: 36px;
+}
+
+.ctabillboard p {
+    font-size: 24px;
+}
+
+.ctabillboard button {
+    color: #fff;
+    background-color: #2882f6;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 5px 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1f2937;
+    color:#fff
 }
